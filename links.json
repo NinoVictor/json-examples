@@ -61,5 +61,80 @@
 				]
 			}
 		]
+	},
+	{
+		"to": "#",
+		"icon": "mdi-view-dashboard",
+		"text": "Otro página",
+		"padre": false
+	},
+	{
+		"to": "#",
+		"icon": "mdi-view-dashboard",
+		"text": "Otro página",
+		"padre": false
+	},
+	{
+		"to": "#",
+		"icon": "mdi-view-dashboard",
+		"text": "Otro página",
+		"padre": false
+	},
+	{
+		"icon": "mdi-folder",
+		"text": "Catalogos",
+		"padre": true,
+		"hijos": [
+			{
+				"text": "Catalogo 1",
+				"to": "#",
+				"icon": "mdi-file",
+				"padre": false
+			},
+			{
+				"text": "Catalogo 2",
+				"to": "#",
+				"icon": "mdi-file",
+				"padre": false
+			},
+			{
+				"icon": "mdi-folder",
+				"text": "Sub catalogos",
+				"padre": true,
+				"hijos": [
+					{
+						"text": "Catalogo 1",
+						"to": "#",
+						"icon": "mdi-file",
+						"padre": false
+					},
+					{
+						"text": "Catalogo 2",
+						"to": "#",
+						"icon": "mdi-file",
+						"padre": false
+					},
+					{
+						"icon": "mdi-folder",
+						"text": "Sub catalogos",
+						"padre": true,
+						"hijos": [
+							{
+								"text": "Catalogo 1",
+								"to": "#",
+								"icon": "mdi-file",
+								"padre": false
+							},
+							{
+								"text": "Catalogo 2",
+								"to": "#",
+								"icon": "mdi-file",
+								"padre": false
+							}
+						]
+					}
+				]
+			}
+		]
 	}
 ]
